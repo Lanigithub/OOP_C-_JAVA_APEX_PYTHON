@@ -14,10 +14,11 @@
 ( https://www.techtarget.com/searchapparchitecture/definition/object-oriented-programming-OOP) 
 ***
 ### 4. What are the 4 main principles of OOP: Data abstraction, Inheritance, Encapsulation and Polymorphism
- *  #### Data Abstraction: 
- *  #### Inheritance: 
- *  #### Encapsulation: 
- *  #### Polymorphism: 
+ *  #### Data Abstraction: Data abstraction is a mechanism of retrieving the essentials details without dealing with background details.
+  ( https://www.salesforcetutorial.com/data-abstraction/)--Check out some " What is..." in the salesforce tutorials
+ *  #### Inheritance: Inheritance is the procedure in which one class inherits the attributes and methods of another class.  The class whose properties and methods are      inherited is known as Parent class. And the class that inherits the properties from the parent class is the Child class.
+ *  #### Encapsulation: a way to ensure security. Basically, it hides the data from the access of outsiders.
+ *  #### Polymorphism: means having many forms. In OOP it refers to the functions having the same names but carrying different functionalities.
 
 *** 
 ### Relationship between a class and objects: class is the Blueprint or template of objects and objects are instances . Example of class  Car has objects of types (make)of cars (Volvo, Audi, Toyota, Tesla) and their attributes or fields ( color, make, model, year ,weight) and methods (or functions: drive and brake.
