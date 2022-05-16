@@ -18,6 +18,31 @@
   ( https://www.salesforcetutorial.com/data-abstraction/)--Check out some " What is..." in the salesforce tutorials
  *  #### Inheritance: Inheritance is the procedure in which one class inherits the attributes and methods of another class.  The class whose properties and methods are      inherited is known as Parent class. And the class that inherits the properties from the parent class is the Child class.
  *  #### Encapsulation: a way to ensure security. Basically, it hides the data from the access of outsiders.
+ #### Example from C#: 
+ ```
+ use the Name property to access and update the private field of the Person class:
+ class Person
+{
+  private string name; // field
+  public string Name   // property
+  {
+    get { return name; }
+    set { name = value; }
+  }
+}
+
+class Program
+{
+  static void Main(string[] args)
+  {
+    Person myObj = new Person();
+    myObj.Name = "Liam";
+    Console.WriteLine(myObj.Name);
+  }
+}
+// output: Liam
+
+```
  *  #### Polymorphism: means having many forms. In OOP it refers to the functions having the same names but carrying different functionalities.
 
 *** 
