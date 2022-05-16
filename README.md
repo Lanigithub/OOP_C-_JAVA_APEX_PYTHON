@@ -17,7 +17,7 @@
  *  #### Data Abstraction: Data abstraction is a mechanism of retrieving the essentials details without dealing with background details.
   ( https://www.salesforcetutorial.com/data-abstraction/)--Check out some " What is..." in the salesforce tutorials
  *  #### Inheritance: Inheritance is the procedure in which one class inherits the attributes and methods of another class.  
-    In C#: Derived Class (child) - the class that inherits from another class
+    In C#: Derived Class (child) - the class that inherits from another class  /n
            Base Class (parent) - the class being inherited from 
          **To inherit from a class, use the : symbol.**
  *  #### Encapsulation: a way to ensure security. Basically, it hides the data from the access of outsiders.
