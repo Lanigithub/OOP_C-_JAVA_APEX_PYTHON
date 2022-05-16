@@ -20,13 +20,47 @@
     In C#: Derived Class (child) - the class that inherits from another class  \
             Base Class (parent) - the class being inherited from  \
          **To inherit from a class, use the : symbol.**
+   #### Example of inheritance in C#: 
+   #### the Car class (child) inherits the fields and methods from the Vehicle class (parent):
+   ```
+   class Vehicle  // base class (parent) 
+{
+  public string brand = "Ford";  // Vehicle field
+  public void honk()             // Vehicle method 
+  {                    
+    Console.WriteLine("Tuut, tuut!");
+  }
+}
+
+class Car : Vehicle  // derived class (child)
+{
+  public string modelName = "Mustang";  // Car field
+}
+
+class Program
+{
+  static void Main(string[] args)
+  {
+    // Create a myCar object
+    Car myCar = new Car();
+
+    // Call the honk() method (From the Vehicle class) on the myCar object
+    myCar.honk();
+
+    // Display the value of the brand field (from the Vehicle class) and the value of the modelName from the Car class
+    Console.WriteLine(myCar.brand + " " + myCar.modelName);
+  }
+}
+```
+
  *  #### Encapsulation: a way to ensure security. Basically, it hides the data from the access of outsiders.
       in C#, The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users. To achieve this, you must declare fields/variables as private
    #### provide public get and set methods, through properties, to access and update the value of a private field
    (https://www.w3schools.com/cs/cs_properties.php ) 
  #### Example from C#: 
  ```
- use the Name property to access and update the private field of the Person class:
+
+ // use the Name property to access and update the private field of the Person class:
  class Person
 {
   private string name; // field
