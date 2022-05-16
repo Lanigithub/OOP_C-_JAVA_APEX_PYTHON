@@ -18,6 +18,9 @@
   ( https://www.salesforcetutorial.com/data-abstraction/)--Check out some " What is..." in the salesforce tutorials
  *  #### Inheritance: Inheritance is the procedure in which one class inherits the attributes and methods of another class.  The class whose properties and methods are      inherited is known as Parent class. And the class that inherits the properties from the parent class is the Child class.
  *  #### Encapsulation: a way to ensure security. Basically, it hides the data from the access of outsiders.
+ *  #### in C#, The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users. To achieve this, you must declare fields/variables as private
+   #### provide public get and set methods, through properties, to access and update the value of a private field
+   (https://www.w3schools.com/cs/cs_properties.php ) 
  #### Example from C#: 
  ```
  use the Name property to access and update the private field of the Person class:
