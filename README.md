@@ -13,6 +13,10 @@
 * #### Attributes are defined in the class template and represent the state of an object. Objects will have data stored in the attributes field. Class attributes belong to the class itself.
 ( https://www.techtarget.com/searchapparchitecture/definition/object-oriented-programming-OOP) 
 ***
+### What are the 4 main principles of OOP: Data abstraction, Inheritance, Encapsulation and Polymorphism
+
+
+*** 
 ### Relationship between a class and objects: class is the Blueprint or template of objects and objects are instances . Example of class  Car has objects of types (make)of cars (Volvo, Audi, Toyota, Tesla) and their attributes or fields ( color, make, model, year ,weight) and methods (or functions: drive and brake.
 
 ####  constructor: a class is like objects constructor, or a blueprint to create objects.
