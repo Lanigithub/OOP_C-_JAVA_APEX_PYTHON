@@ -18,7 +18,7 @@
   ( https://www.salesforcetutorial.com/data-abstraction/)--Check out some " What is..." in the salesforce tutorials
  *  #### Inheritance: Inheritance is the procedure in which one class inherits the attributes and methods of another class.  
     In C#: Derived Class (child) - the class that inherits from another class  \
-           Base Class (parent) - the class being inherited from 
+            Base Class (parent) - the class being inherited from  \
          **To inherit from a class, use the : symbol.**
  *  #### Encapsulation: a way to ensure security. Basically, it hides the data from the access of outsiders.
       in C#, The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users. To achieve this, you must declare fields/variables as private
