@@ -13,8 +13,8 @@
 * #### Attributes are defined in the class template and represent the state of an object. Objects will have data stored in the attributes field. Class attributes belong to the class itself.
 ( https://www.techtarget.com/searchapparchitecture/definition/object-oriented-programming-OOP) 
 ***
-### 4. What are the 4 main principles of OOP: Data abstraction, Inheritance, Encapsulation and Polymorphism
- *  #### Data Abstraction: Data abstraction is a mechanism of retrieving the essentials details without dealing with background details.
+### 4. What are the 4 main principles of OOP: Abstraction, Inheritance, Encapsulation and Polymorphism
+ *  #### Abstraction: Data abstraction is a mechanism of retrieving the essentials details without dealing with background details.
   ( https://www.salesforcetutorial.com/data-abstraction/)--Check out some " What is..." in the salesforce tutorials
  *  #### Inheritance: Inheritance is the procedure in which one class inherits the attributes and methods of another class.  
     In C#: Derived Class (child) - the class that inherits from another class  \
