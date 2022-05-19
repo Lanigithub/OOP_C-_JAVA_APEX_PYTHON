@@ -29,7 +29,7 @@ namespace HelloWorld                     // namespace is used to organize your c
 }
 
 ```
-#### 3. Classes and Objects: Everything in C# is associated with classes and objects, along with its attributes and methods. For example: in real life, a car is an #### object. The car has attributes, such as weight and color, and methods, such as drive and brake.
+#### Classes and Objects: Everything in C# is associated with classes and objects, along with its attributes and methods. For example: in real life, a car is an #### object. The car has attributes, such as weight and color, and methods, such as drive and brake.
 Example of the Class Car with 3 members: two fields and one method , and a special  static Main( ) method to create objects and call methods to be excueted:
 ```
 Class Car  {
@@ -64,8 +64,6 @@ The car is speeding!!!
 }
 ```
 ### 4. What are the 4 main principles of OOP: Abstraction, Inheritance, Encapsulation and Polymorphism
- *  #### Abstraction: Data abstraction is a mechanism of retrieving the essentials details without dealing with background details.
-  ( https://www.salesforcetutorial.com/data-abstraction/)--Check out some " What is..." in the salesforce tutorials
  *  #### Inheritance: Inheritance is the procedure in which one class inherits the attributes and methods of another class.  
     In C#: Derived Class (child) - the class that inherits from another class  \
             Base Class (parent) - the class being inherited from  \
@@ -135,8 +133,19 @@ class Program
 
 ```
  *  #### Polymorphism: means having many forms. In OOP it refers to the functions having the same names but carrying different functionalities.
+ 
+ * #### Abstraction Data abstraction is the process of hiding certain details and showing only essential information to the user.
+   #### Abstraction can be achieved with either abstract classes or interfaces
+   
+  *#### Interface: interface is an outline of a class/ A class needs to implement a pre-defined interface to make an object and perform its functionalities.
+Example:
+```
+
+
+```
 
 *** 
+
 ### Relationship between a class and objects: class is the Blueprint or template of objects and objects are instances . Example of class  Car has objects of types (make)of cars (Volvo, Audi, Toyota, Tesla) and their attributes or fields ( color, make, model, year ,weight) and methods (or functions: drive and brake.
 
 ####  constructor: a class is like objects constructor, or a blueprint to create objects.
