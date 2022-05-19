@@ -13,6 +13,56 @@
 * #### Attributes are defined in the class template and represent the state of an object. Objects will have data stored in the attributes field. Class attributes belong to the class itself.
 ( https://www.techtarget.com/searchapparchitecture/definition/object-oriented-programming-OOP) 
 ***
+#### Syntax for C#:
+```
+using System;                           // using System means that we can use classes from the System namespace.               
+                                        //A blank line. C# ignores white space. However, multiple lines makes the code more readable.
+namespace HelloWorld                     // namespace is used to organize your code, and it is a container for classes and other namespaces.
+{                                       // The curly braces {} marks the beginning and the end of a block of code.
+  class Program                         // class is a container for data and methods, which brings functionality to your program. Every line of code that runs in C#                                             //must be inside a class. In our example, we named the class Program.
+  {
+    static void Main(string[] args)      // Main method: Any code inside its curly brackets {} will be executed
+    {
+      Console.WriteLine("Hello World!");      // To output values or print text in C#, you can use the WriteLine() method
+    }
+  }
+}
+
+```
+#### 3. Classes and Objects: Everything in C# is associated with classes and objects, along with its attributes and methods. For example: in real life, a car is an #### object. The car has attributes, such as weight and color, and methods, such as drive and brake.
+Example of the Class Car with 3 members: two fields and one method , and a special  static Main( ) method to create objects and call methods to be excueted:
+```
+Class Car  {
+
+string color = "Blue";  //field or attribute of the car with initializing a value
+int   maxSpeed;        // field without initialize a calue
+public void Speeding( )   //Method 
+
+{
+Console.WriteLine(" The Car is speeding!!!");   //code in the method to be called for execution 
+
+} 
+
+static void Main(string[] args)   // pre-defined method Main( String[] args) accepting string array of arguments
+                            //To create an object myObject and call to execute the methods or display the attributes using object dot notation myObject.field
+
+{
+Car myObject= new Car( );    // Create an object myObject using new car(); 
+
+myObject.maxSpeed = 200;      //initialize  the maxSpeed arrtibute and now its an object in the class
+
+Console.WriteLine(myObject.color);      // print out the two objects in the class
+Console.WriteLine(myObject.maxSpeed);
+
+myObject.Speeding( );   // call the method 
+} 
+// Output: 
+blue
+200
+The car is speeding!!! 
+
+}
+```
 ### 4. What are the 4 main principles of OOP: Abstraction, Inheritance, Encapsulation and Polymorphism
  *  #### Abstraction: Data abstraction is a mechanism of retrieving the essentials details without dealing with background details.
   ( https://www.salesforcetutorial.com/data-abstraction/)--Check out some " What is..." in the salesforce tutorials
@@ -91,6 +141,25 @@ class Program
 
 ####  constructor: a class is like objects constructor, or a blueprint to create objects.
 #### a special method is called a constructor that is used to initialize objects. For example model=" Santa Fe" in a method is called a constructor that sets initial value for a field. 
+```
+class Car
+{
+  public string model;
+
+  // Create a class constructor with a parameter
+  public Car(string modelName)
+  {
+    model = modelName;
+  }
+
+  static void Main(string[] args)
+  {
+    Car Hyundai = new Car("Santa Fe");
+    Console.WriteLine(Hyundai.model);
+  }
+}
+
+// Outputs "Stata Fe"
 #### Static and public are two access identifiers .
 
 #### Methods need to be public for objects to access. Static method can be accessed without creating an object of the class. 
