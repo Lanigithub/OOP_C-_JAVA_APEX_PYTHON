@@ -57,7 +57,7 @@ Console.WriteLine(myObject.maxSpeed);
 myObject.Speeding( );   // call the method 
 } 
 // Output: 
-blue
+Blue
 200
 The car is speeding!!! 
 
