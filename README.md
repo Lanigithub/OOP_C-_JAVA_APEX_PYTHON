@@ -44,9 +44,9 @@ Console.WriteLine(" The Car is speeding!!!");   //code in the method to be calle
 } 
 
 static void Main(string[] args)   // pre-defined method Main( String[] args) accepting string array of arguments
-                            //To create an object myObject and call to execute the methods or display the attributes using object dot notation myObject.field
-
+                            //To create an object myObject and call to execute the methods or display the attributes using object dot notation myObject.fiel
 {
+
 Car myObject= new Car( );    // Create an object myObject using new car(); 
 
 myObject.maxSpeed = 200;      //initialize  the maxSpeed arrtibute and now its an object in the class
