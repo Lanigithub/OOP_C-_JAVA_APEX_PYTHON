@@ -63,7 +63,7 @@ The car is speeding!!!
 
 }
 ```
-### 4. What are the 4 main principles of OOP: Abstraction, Inheritance, Encapsulation and Polymorphism
+### 4. What are the 4 main principles of OOP: Inheritance, Encapsulation and Polymorphism, Abstraction
  *  #### Inheritance: Inheritance is the procedure in which one class inherits the attributes and methods of another class.  
     In C#: Derived Class (child) - the class that inherits from another class  \
             Base Class (parent) - the class being inherited from  \
