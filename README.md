@@ -156,7 +156,7 @@ class Program
    
   *  ####  Interface: interface is an outline of a class/ A class needs to implement a pre-defined interface to make an object and perform its functionalities.
    #### An interface is a completely "abstract class", which can only contain abstract methods and properties (with empty bodies)
-  
+  (https://www.w3schools.com/cs/cs_interface.php)
 Example:
 ```
 
