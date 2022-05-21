@@ -100,6 +100,8 @@ class Program
     Console.WriteLine(myCar.brand + " " + myCar.modelName);
   }
 }
+//output:  Tuut Tuut
+//   Ford    Mustang
 ```
 
  *  #### Encapsulation: a way to ensure security. Basically, it hides the data from the access of outsiders.
@@ -133,7 +135,13 @@ class Program
 
 ```
  *  #### Polymorphism: means having many forms. In OOP it refers to the functions having the same names but carrying different functionalities.
- 
+ *  #### Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
+ *  #### Example, think of a base class called Vehicle that has a method called animalSound(). Derived classes of Animals could be Pigs, Cats, Dogs, Birds -
+ *  ####  And they  also have their own implementation of an animal sound (the pig oinks, and the cat meows, etc.):
+   (https://www.w3schools.com/cs/cs_polymorphism.php)
+   ```
+   
+   ```
  * #### Abstraction Data abstraction is the process of hiding certain details and showing only essential information to the user.
    #### Abstraction can be achieved with either abstract classes or interfaces
    
