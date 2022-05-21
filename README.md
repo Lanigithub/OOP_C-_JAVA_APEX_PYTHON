@@ -143,12 +143,13 @@ class Program
    ```
    
    ```
- *  ####  Abstraction Data abstraction is the process of hiding certain details and showing only essential information to the user.
+ *  ####  Abstraction:  Data abstraction is the process of hiding certain details and showing only essential information to the user.
    #### Abstraction can be achieved with either abstract classes or interfaces
    #### An abstract class can have both abstract and regular methods:
-    #### To access the abstract class, it must be inherited from another class
+   #### To access the abstract class, it must be inherited from another class
    #### Use the : symbol to inherit from a class, and that we use the override keyword to override the base class method.
    Example: 
+   
    ```
    
    ```
