@@ -144,14 +144,29 @@ class Program
    ```
  * #### Abstraction Data abstraction is the process of hiding certain details and showing only essential information to the user.
    #### Abstraction can be achieved with either abstract classes or interfaces
+   #### An abstract class can have both abstract and regular methods:
+    #### To access the abstract class, it must be inherited from another class
+   #### Use the : symbol to inherit from a class, and that we use the override keyword to override the base class method.
+   Example: 
+   ```
    
-  *#### Interface: interface is an outline of a class/ A class needs to implement a pre-defined interface to make an object and perform its functionalities.
+   ```
+   
+  * #### Interface: interface is an outline of a class/ A class needs to implement a pre-defined interface to make an object and perform its functionalities.
+   #### An interface is a completely "abstract class", which can only contain abstract methods and properties (with empty bodies)
+  
 Example:
 ```
 
 
 ```
-
+#### Notes on Interfaces:
+* #### Like abstract classes, interfaces cannot be used to create objects (in the example above, it is not possible to create an "IAnimal" object in the Program class)
+* #### Interface methods do not have a body - the body is provided by the "implement" class
+* #### On implementation of an interface, you must override all of its methods
+* #### Interfaces can contain properties(Special methods like accessors methods get and set)  and methods, but not fields/variables ( declaring a value to a varaible)
+ * #### Interface members are by default abstract and public
+* #### An interface cannot contain a constructor (as it cannot be used to create objects)
 *** 
 
 ### Relationship between a class and objects: class is the Blueprint or template of objects and objects are instances . Example of class  Car has objects of types (make)of cars (Volvo, Audi, Toyota, Tesla) and their attributes or fields ( color, make, model, year ,weight) and methods (or functions: drive and brake.
@@ -182,3 +197,5 @@ class Car
 #### Methods need to be public for objects to access. Static method can be accessed without creating an object of the class. 
 
 #### Creating an object needs to specify the class name followed by the object name, and used the keyword new: Car toyota= new Car ();
+#### Property in C# is a member of a class that provides a flexible mechanism for classes to expose private fields. Internally, C# properties are special methods called accessors. A C# property have two accessors, get property accessor and set property accessor. A get accessor returns a property value, and a set accessor assigns a new value. The value keyword represents the value of a property. 
+( https://www.c-sharpcorner.com/article/understanding-properties-in-C-Sharp/#:~:text=Property%20in%20C%23%20is%20a,accessor%20and%20set%20property%20accessor.)
