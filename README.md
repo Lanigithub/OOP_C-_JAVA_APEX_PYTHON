@@ -221,8 +221,8 @@ class Muliplication : ArithmeticOperators
   public override void operation()
   {
     // The body of operation() is provided here
-    int x= 2*3
-    Console.WriteLine(" x");
+    int y= 2*3
+    Console.WriteLine(" y ");
   }
 }
 
