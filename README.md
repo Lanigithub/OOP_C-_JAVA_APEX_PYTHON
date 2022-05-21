@@ -64,7 +64,7 @@ The car is speeding!!!
 }
 ```
 ### 4. What are the 4 main principles of OOP: Inheritance, Encapsulation, Polymorphism and Abstraction
- *  #### Inheritance: Inheritance is the procedure in which one class inherits the attributes and methods of another class.  
+ *  ####  Inheritance: Inheritance is the procedure in which one class inherits the attributes and methods of another class.  
     In C#: Derived Class (child) - the class that inherits from another class  \
             Base Class (parent) - the class being inherited from  \
          **To inherit from a class, use the : symbol.**
@@ -134,15 +134,16 @@ class Program
 // output: Liam
 
 ```
- *  #### Polymorphism: means having many forms. In OOP it refers to the functions having the same names but carrying different functionalities.
- *  #### Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
- *  #### Example, think of a base class called Vehicle that has a method called animalSound(). Derived classes of Animals could be Pigs, Cats, Dogs, Birds -
- *  ####  And they  also have their own implementation of an animal sound (the pig oinks, and the cat meows, etc.):
+ *  ####  Polymorphism: means having many forms. In OOP it refers to the functions having the same names but carrying different functionalities.
+   #### Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
+   #### C# provides an option to override the base class method, by adding the virtual keyword to the method inside the base class, and by using the override keyword      ##### for each derived class methods
+  #### Example, think of a base class called Vehicle that has a method called animalSound(). Derived classes of Animals could be Pigs, Cats, Dogs, Birds -
+  ####  And they  also have their own implementation of an animal sound (the pig oinks, and the cat meows, etc.):
    (https://www.w3schools.com/cs/cs_polymorphism.php)
    ```
    
    ```
- * #### Abstraction Data abstraction is the process of hiding certain details and showing only essential information to the user.
+ *  ####  Abstraction Data abstraction is the process of hiding certain details and showing only essential information to the user.
    #### Abstraction can be achieved with either abstract classes or interfaces
    #### An abstract class can have both abstract and regular methods:
     #### To access the abstract class, it must be inherited from another class
@@ -152,7 +153,7 @@ class Program
    
    ```
    
-  * #### Interface: interface is an outline of a class/ A class needs to implement a pre-defined interface to make an object and perform its functionalities.
+  *  ####  Interface: interface is an outline of a class/ A class needs to implement a pre-defined interface to make an object and perform its functionalities.
    #### An interface is a completely "abstract class", which can only contain abstract methods and properties (with empty bodies)
   
 Example:
