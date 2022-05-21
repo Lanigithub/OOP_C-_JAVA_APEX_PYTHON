@@ -137,7 +137,7 @@ class Program
  *  ####  Polymorphism: means having many forms. In OOP it refers to the functions having the same names but carrying different functionalities.
    #### Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
    #### C# provides an option to override the base class method, by adding the virtual keyword to the method inside the base class, and by using the override keyword      ##### for each derived class methods
-  #### Example, think of a base class called Vehicle that has a method called animalSound(). Derived classes of Animals could be Pigs, Cats, Dogs, Birds -
+  #### Example, think of a base class called Animal that has a method called animalSound(). Derived classes of Animals could be Pigs, Cats, Dogs, Birds -
   ####  And they  also have their own implementation of an animal sound (the pig oinks, and the cat meows, etc.):
    (https://www.w3schools.com/cs/cs_polymorphism.php)
    ```
