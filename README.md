@@ -190,8 +190,58 @@ class Program
    Example: 
    
    ```
+ // Abstract class
  
-   
+abstract class ArithmeticOperators 
+{
+  // Abstract method (does not have a body)
+  
+  public abstract void operation();
+  
+  // Regular method
+  public void Comparison()
+  {
+    Console.WriteLine("4< 7");
+  }
+}
+
+// Derived class (inherit from  ArithmeticOperators)
+
+class Addition : ArithmeticOperators
+{
+  public override void operation()
+  {
+    // The body of operation() is provided here
+    int x= 2+3
+    Console.WriteLine(" x");
+  }
+}
+class Muliplication : ArithmeticOperators
+{
+  public override void operation()
+  {
+    // The body of operation() is provided here
+    int x= 2*3
+    Console.WriteLine(" x");
+  }
+}
+
+class Program                                  // a class that you can create objects and call the methods to be executed 
+{
+  static void Main(string[] args)
+  {
+    Addition myAdd = new Addition(); // Create an addition object
+    Multiplication myMult= new Multiplication() ; careat a multiplication object 
+    
+    myAdd.operation();  // Call the abstract method from the abstatct class inherited by addition class
+    mymult.operation(); //  Call the abstract method from the abstatct class inherited by Multiplication class
+    
+   myAdd.comparison();  // Call the regular method
+  }
+}
+   // Output: 5
+    //        6
+    //     4< 7
    ```
    
   *  ####  Interface: interface is an outline of a class/ A class needs to implement a pre-defined interface to make an object and perform its functionalities.
