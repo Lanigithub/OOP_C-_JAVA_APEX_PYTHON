@@ -115,10 +115,13 @@ class Program
  class Person
 {
   private string name; // field
-  public string Name   // property
+  public string Name   // property  with get method to read the value and set method to set the value
   {
-    get { return name; }
-    set { name = value; }
+    get { 
+    return name; }
+    
+    set {
+    name = value; }
   }
 }
 
@@ -231,7 +234,7 @@ class Program                                  // a class that you can create ob
   static void Main(string[] args)
   {
     Addition myAdd = new Addition(); // Create an addition object
-    Multiplication myMult= new Multiplication() ; careat a multiplication object 
+    Multiplication myMult= new Multiplication() ;   // create a multiplication object 
     
     myAdd.operation();  // Call the abstract method from the abstatct class inherited by addition class
     mymult.operation(); //  Call the abstract method from the abstatct class inherited by Multiplication class
@@ -249,7 +252,31 @@ class Program                                  // a class that you can create ob
   (https://www.w3schools.com/cs/cs_interface.php)
 Example:
 ```
+//intaface 
+intaface IAnimal {
+void animalSound( );   // intaface method doesn't have a body
 
+} 
+
+//  Class Cat implements the IAnimal interface using : 
+Class Cat : IAnimal {
+void animalSound( ) {
+
+// body of animalSound is provided here:
+
+Console.WriteLine( "The cat says: meow meow ");
+
+}
+
+// Class Program:
+
+Class Program  {
+
+static void Main (String[] args]{ 
+Cat myCat = new Cat( );     // create the myCat object
+myCat.animalSound();        //call the animalSound method from the Cat class implements the IAnimal interface
+
+//output: The cat says meow meow. 
 
 ```
 #### Notes on Interfaces:
